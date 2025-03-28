@@ -1,4 +1,4 @@
-Bienvenue dans le projet HTM-FND 🎉
+Bienvenue dans le module HTM-FND 🎉
 
 Que vous soyez débutant·e ou en quête de renforcement de vos bases, ce projet s'appuie sur une formation de qualité dispensée par M2i Formation. À travers des exercices pratiques, vous apprendrez à :
 
