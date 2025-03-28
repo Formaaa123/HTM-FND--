@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Site avec Skeleton</title>
+    
+    <!-- CSS Skeleton depuis le CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    
+    <!-- CSS personnalisé -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        .header, footer {
+            background-color: #0078A8;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .header h1, footer p {
+            margin: 0;
+        }
+        .button-primary {
+            background-color: #0078A8;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- En-tête -->
+    <header class="header">
+        <h1>MonSiteWeb</h1>
+    </header>
+
+    <!-- Section principale -->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns text-center">
+                <h2>Bienvenue sur mon site !</h2>
+                <p>Ceci est un exemple simple de page utilisant Skeleton pour une mise en page légère et responsive.</p>
+                <a href="#" class="button-primary">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 MonSiteWeb</p>
+    </footer>
+</body>
+</html>

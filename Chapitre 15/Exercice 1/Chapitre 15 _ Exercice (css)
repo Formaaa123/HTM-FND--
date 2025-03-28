@@ -1,0 +1,62 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Styles pour la mise en page classique */
+.classique .article {
+    width: 70%;
+    padding: 10px;
+    float: left;
+}
+
+.classique .sidebar {
+    width: 30%;
+    padding: 10px;
+    float: right;
+}
+
+.classique footer {
+    clear: both;
+}
+
+/* Styles pour la mise en page en grille */
+.grille {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.grille .article, .grille .sidebar {
+    padding: 10px;
+}
+
+.grille footer {
+    grid-column: span 2;
+}
+
+/* Adaptabilité avec les Media Queries */
+@media (max-width: 768px) {
+    .classique .article, .classique .sidebar {
+        width: 100%;
+        float: none;
+    }
+
+    .grille {
+        grid-template-columns: 1fr;
+    }
+}

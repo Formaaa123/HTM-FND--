@@ -1,0 +1,66 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.conteneur {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+/* Styles pour l’article texte */
+.texte {
+    flex: 2;
+    padding: 15px;
+    background-color: #f4f4f4;
+    overflow: auto; /* Gérer le débordement de texte */
+}
+
+/* Styles pour la galerie d’images */
+.galerie {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-item {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    object-fit: cover; /* Prévenir le débordement de l’image */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Point de rupture pour les petits écrans */
+@media (max-width: 768px) {
+    .conteneur {
+        flex-direction: column;
+    }
+
+    .image-item {
+        max-width: 100%;
+    }
+}

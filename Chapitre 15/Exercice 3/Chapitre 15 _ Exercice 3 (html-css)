@@ -1,0 +1,10 @@
+<style>
+/* Votre style ici */
+</style>
+
+
+<div class="profile-card">
+  <img src="https://via.placeholder.com/150" alt="Photo de profil">
+  <h2 class="name">Jane Doe</h2>
+  <p class="bio">Développeuse web passionnée par le design responsive et l'accessibilité.</p>
+</div>

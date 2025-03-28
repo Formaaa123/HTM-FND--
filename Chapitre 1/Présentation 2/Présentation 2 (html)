@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template avec Skeleton</title>
+    
+    <!-- Google Fonts : Roboto - https://fonts.google.com/specimen/Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Fichier CSS personnalisé pour ajouter des styles spécifiques -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- CDN Font Awesome : https://fontawesome.com/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- En-tête contenant la navigation -->
+    <header class="container">
+        <nav class="row">
+            <!-- Logo du site (6 colonnes sur 12) -->
+            <div class="six columns logo">
+                Notre site
+            </div>
+            <!-- Menu de navigation (6 colonnes sur 12) 
+                
+            <ul class="six columns menu">
+                <!-- Liens du menu -->
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenu principal de la page -->
+    <main class="container">
+        <!-- Section héroïque d introduction -->
+        <section class="hero">
+            <!-- Titre principal de la section -->
+            <h1>Bienvenue sur notre site</h1>
+            <!-- Paragraphe d'introduction -->
+            <p>Découvrez nos services et apprenez-en plus sur nous.</p>
+        </section>
+
+        <!-- Section des services proposés -->
+        <section class="services">
+            <!-- Titre de la section -->
+            <h2>Nos services</h2>
+            <div class="row">
+                <!-- Service 1 : 4 colonnes sur 12 -->
+                <div class="four columns">
+                    <div class="service-card">
+                        <!-- Icône : https://fontawesome.com/icons/tools?f=classic -->
+                        <i class="fas fa-tools"></i>
+                        <h3>Service 1</h3>
+                        <p>Des services exceptionnels pour vous aider.</p>
+                    </div>
+                </div>
+                <!-- Service 2 : 4 colonnes sur 12 -->
+                <div class="four columns">
+                    <div class="service-card">
+                        <!-- Icône : https://fontawesome.com/icons/chart-line?f=classic -->
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Service 2</h3>
+                        <p>Des solutions sur mesure pour votre entreprise.</p>
+                    </div>
+                </div>
+                <!-- Service 3 : 4 colonnes sur 12 -->
+                <div class="four columns">
+                    <div class="service-card">
+                        <!-- Icône : https://fontawesome.com/icons/laptop?f=classic -->
+                        <i class="fas fa-laptop"></i>
+                        <h3>Service 3</h3>
+                        <p>Nous vous aidons à améliorer votre présence en ligne.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section avec une rangée d articles de blog -->
+        <section class="blog">
+            <h2>Articles récents</h2>
+            <div class="row">
+                <!-- Article 1 : 6 colonnes sur 12 -->
+                <div class="six columns">
+                    <div class="article-card">
+                        <!-- Icône : https://fontawesome.com/icons/pencil-alt?f=classic -->
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Article 1</h3>
+                        <p>Apprenez les bases du développement web.</p>
+                    </div>
+                </div>
+                <!-- Article 2 : 6 colonnes sur 12 -->
+                <div class="six columns">
+                    <div class="article-card">
+                        <!-- Icône : https://fontawesome.com/icons/book?f=classic -->
+                        <i class="fas fa-book"></i>
+                        <h3>Article 2</h3>
+                        <p>Les dernières tendances en matière de design web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="container">
+        <p>&copy; 2024 Notre site. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

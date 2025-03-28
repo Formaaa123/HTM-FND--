@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Détection avec Modernizr</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <style>
+    .feature-supported {
+      color: green;
+      font-weight: bold;
+    }
+    
+    .feature-not-supported {
+      color: red;
+      font-style: italic;
+    }
+
+    .flexbox .flex-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .no-flexbox .flex-container {
+      display: block;
+    }
+
+    .flex-item {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Détection de fonctionnalités avec Modernizr</h1>
+  
+  <div id="feature-list"></div>
+
+  <h2>Exemple d'utilisation de Flexbox</h2>
+  <div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+  </div>
+
+  <script>
+
+  </script>
+</body>
+</html>

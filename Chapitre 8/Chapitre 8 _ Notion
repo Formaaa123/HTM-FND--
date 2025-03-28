@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio et Vidéo HTML</title>
+</head>
+<body>
+  <h1>Exemple d'audio et de vidéo en HTML</h1>
+
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="audio/exemple.mp3" type="audio/mp3">
+    Votre navigateur ne supporte pas la balise audio.
+  </audio>
+
+  <h2>Vidéo</h2>
+  <video width="320" height="240" controls>
+    <source src="video/exemple.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la balise vidéo.
+  </video>
+
+</body>
+</html>

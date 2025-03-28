@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemples de Positionnement CSS</title>
+    <style>
+        /* Positionnement normal dans le flux */
+        .normal {
+            background-color: lightblue;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Positionnement absolu */
+        .absolute {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+
+        /* Positionnement relatif */
+        .relative {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+
+        /* Positionnement fixe */
+        .fixed {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 150px;
+            height: 150px;
+            background-color: purple;
+            color: white;
+            text-align: center;
+        }
+
+        /* Flottant */
+        .float {
+            float: left;
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+            color: white;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        /* Conteneur pour le texte */
+        .content {
+            background-color: lightgray;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Positionnement normal dans le flux -->
+    <div class="normal">Positionnement normal</div>
+
+    <!-- Positionnement absolu -->
+    <div class="absolute">Position absolue</div>
+
+    <!-- Positionnement relatif -->
+    <div class="relative">Position relative</div>
+
+    <!-- Positionnement fixe -->
+    <div class="fixed">Position fixe</div>
+
+    <!-- Flottant -->
+    <div class="float">Position flottante</div>
+
+    <!-- Contenu qui se déroule autour de l'élément flottant -->
+    <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ipsum vitae auctor lacinia. Nulla facilisi. Sed aliquam lorem ut lectus consequat, sed tincidunt lorem pretium.
+    </div>
+
+</body>
+</html>

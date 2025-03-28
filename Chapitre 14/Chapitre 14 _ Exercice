@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice Bootstrap 3 - Modal</title>
+
+  <!-- Intégration de Bootstrap 3 CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Bienvenue dans l'exemple du Modal</h1>
+    
+    <!-- Bouton pour ouvrir le modal -->
+    <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">Ouvrir Modal</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: lightgray;">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModalLabel">Modal Exemple</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             
+            </button>
+          </div>
+          <div class="modal-body">
+            Ceci est un modal créé avec Bootstrap 3.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            <!-- Bouton pour afficher un second message -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#secondModal">Afficher un message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Modal -->
+    <div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="secondModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: lightblue;">
+          <div class="modal-header">
+            <h5 class="modal-title" id="secondModalLabel">Message Complémentaire</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              
+            </button>
+          </div>
+          <div class="modal-body">
+            Ce message s'affiche après avoir cliqué sur "Afficher un message".
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (nécessaire pour Bootstrap 3) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap 3 JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

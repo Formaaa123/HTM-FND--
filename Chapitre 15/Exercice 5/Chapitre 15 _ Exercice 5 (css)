@@ -1,0 +1,48 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Conteneur principal */
+.conteneur {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Styles des articles avec le modèle de boîte */
+.box {
+    width: 45%;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid #666;
+    background-color: #e8e8e8;
+}
+
+/* Définir box-sizing pour inclure padding et bordure dans la largeur */
+* {
+    box-sizing: border-box;
+}

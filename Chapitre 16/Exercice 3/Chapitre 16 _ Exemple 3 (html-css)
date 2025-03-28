@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple 960 Grid System</title>
+
+  <!-- Inclure 960 Grid System via CDN (télécharger le(s) fichier(s) sur le Github https://github.com/nathansmith/960-Grid-System/tree/master/code/css) -->
+  <link rel="stylesheet" href="votredossierassets/960.css">
+
+  <!-- Style personnalisé (optionnel) -->
+  <style>
+    .content {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Conteneur principal avec la largeur de la grille (960px) -->
+  <div class="container_12">
+
+    <!-- Première ligne -->
+    <div class="grid_4">
+      <div class="content">
+        <h2>Colonne 1</h2>
+        <p>Contenu de la colonne 1</p>
+      </div>
+    </div>
+
+    <div class="grid_4">
+      <div class="content">
+        <h2>Colonne 2</h2>
+        <p>Contenu de la colonne 2</p>
+      </div>
+    </div>
+
+    <div class="grid_4">
+      <div class="content">
+        <h2>Colonne 3</h2>
+        <p>Contenu de la colonne 3</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Pied de page -->
+  <div class="footer">
+    <p>Footer - 960 Grid System Example</p>
+  </div>
+
+</body>
+</html>

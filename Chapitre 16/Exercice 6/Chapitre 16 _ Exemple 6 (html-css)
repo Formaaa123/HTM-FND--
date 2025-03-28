@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Site avec Foundation</title>
+    
+    <!-- CSS Foundation depuis le CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li class="menu-text">MonSiteWeb</li>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><input type="search" placeholder="Rechercher"></li>
+                <li><button type="button" class="button">Rechercher</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Section principale -->
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-center">
+            <div class="cell medium-8 text-center">
+                <h1>Bienvenue sur mon site !</h1>
+                <p class="lead">Ceci est un exemple simple de page utilisant Foundation pour une mise en page rapide et responsive.</p>
+                <a href="#" class="button primary">J'aime ce modèle</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="grid-container full text-center">
+        <div class="grid-x align-center">
+            <div class="cell">
+                <p>&copy; 2024 MonSiteWeb</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Foundation (optionnel) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"></script>
+
+</body>
+</html>

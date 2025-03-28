@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple CSS3 PIE</title>
+  
+  <!-- Lien vers le fichier CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Inclure PIE.js depuis le CDN https://cdnjs.com/libraries/css3pie -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE678.js"></script>
+  <style> 
+  	/* Styles CSS3 pour la boîte */
+
+/* Définir la taille, couleur de fond, et style du texte de la boîte */
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: #4CAF50; /* Couleur verte */
+  color: white; /* Texte en blanc */
+  text-align: center; /* Centrer le texte horizontalement */
+  line-height: 200px; /* Centrer le texte verticalement */
+  font-size: 20px; /* Taille de police */
+
+  /* Bordures arrondies (CSS3) */
+  border-radius: 15px;
+
+  /* Ombre portée (CSS3) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  /* Application de PIE pour les anciens Internet Explorer */
+  behavior: url('https://cdnjs.cloudflare.com/ajax/libs/css3pie/3.0.0/pie.htc'); /* Lien direct vers PIE.htc */
+}
+
+/* Ajouter un effet au survol pour la boîte */
+.box:hover {
+  background-color: #45a049; /* Changer la couleur de fond lorsque l'utilisateur survole la boîte */
+  cursor: pointer; /* Changer le curseur en pointeur */
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Conteneur avec la classe "box" pour appliquer les effets CSS3 -->
+  <div class="box">
+    C'est un exemple de boîte avec CSS3 PIE pour IE !
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site web simple</title>
+
+    <!-- Font Awesome (pour les icônes) : https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts (Roboto) : https://fonts.google.com/specimen/Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Fichier CSS (styles personnalisés) -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Notre site</div>
+        <ul class="menu">
+          <!-- Lien direct pour styliser les menus avec 320CSS : https://320css.com/navigation -->
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <!-- Section héroïque (texte principal) : Exemples d'alignement et de typographie dans 320CSS -->
+        <!-- Documentation typographie : https://320css.com/text -->
+        <h1>Bienvenue sur notre site</h1>
+        <p>Découvrez nos services et apprenez-en plus sur nous.</p>
+      </section>
+
+      <section class="services">
+        <!-- Documentation sur les cartes (Cards) dans 320CSS : https://320css.com/cards -->
+        <h2>Nos Services</h2>
+
+        <div class="card">
+          <!-- Icône "Laptop Code" de Font Awesome : https://fontawesome.com/icons/laptop-code -->
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Développement</h3>
+          <p>Création de sites web modernes et performants.</p>
+        </div>
+        <div class="card">
+          <!-- Icône "Chart Line" de Font Awesome : https://fontawesome.com/icons/chart-line -->
+          <i class="fa-solid fa-chart-line"></i>
+          <h3>Marketing</h3>
+          <p>Stratégies pour faire croître votre activité en ligne.</p>
+        </div>
+      </section>
+      <section class="slide"> 
+        <!-- Slider centré -->
+        <!-- Documentation slider : https://320css.com/carousel -->
+        <div class="slider">
+          <img src="https://via.placeholder.com/300x200" alt="Service 1">
+          <img src="https://via.placeholder.com/300x200" alt="Service 2">
+          <img src="https://via.placeholder.com/300x200" alt="Service 3">
+        </div>
+      </section>
+      <section class="blog">
+        <!-- Section blog (deux articles côte à côte) -->
+        <!-- Documentation pour les colonnes : https://320css.com/grid -->
+        <h2>Articles de blog</h2>
+        <div class="articles">
+          <article>
+            <!-- Icône "File Lines" de Font Awesome : https://fontawesome.com/icons/file-lines -->
+            <i class="fa-solid fa-file-lines"></i>
+            <h3>Article 1</h3>
+            <p>Introduction à notre premier article de blog.</p>
+          </article>
+          <article>
+            <!-- Icône "Book Open" de Font Awesome : https://fontawesome.com/icons/book-open -->
+            <i class="fa-solid fa-book-open"></i>
+            <h3>Article 2</h3>
+            <p>Découvrez les avantages de nos services.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Documentation pour le pied de page (Footer) : https://320css.com/footer -->
+      <p>&copy; 2024 Notre site. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+/* Styles globaux */
+body {
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: 'Roboto', sans-serif; /* Police principale */
+    color: #333; /* Couleur principale du texte */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+/* Header et navigation */
+header {
+    background: #0073e6; /* Couleur de fond bleu */
+    color: #fff; /* Couleur du texte blanc */
+    padding: 1rem 0; /* Espacement vertical */
+}
+
+nav {
+    display: flex; /* Disposition en flexbox */
+    justify-content: space-between; /* Espace entre la logo et le menu */
+    align-items: center; /* Alignement vertical des éléments */
+    width: 90%; /* Largeur relative pour le centrage */
+    max-width: 1200px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+.logo {
+    font-size: 1.5rem; /* Taille du logo */
+    font-weight: bold; /* Texte en gras */
+}
+
+.menu {
+    list-style: none; /* Supprime les puces des listes */
+    display: flex; /* Disposition en ligne */
+    gap: 1.5rem; /* Espacement entre les liens */
+    padding: 0; /* Supprime le remplissage */
+    margin: 0; /* Supprime les marges */
+}
+
+.menu a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #fff; /* Couleur du texte des liens */
+    transition: color 0.3s ease; /* Animation lors du survol */
+}
+
+.menu a:hover {
+    color: #ffcc00; /* Couleur jaune lors du survol */
+}
+
+/* Section héroïque */
+.hero {
+    background: #f4f4f4; /* Fond gris clair */
+    text-align: center; /* Centrage du texte */
+    padding: 2rem 1rem; /* Espacement autour du contenu */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Taille de la police du titre */
+    margin-bottom: 1rem; /* Espacement sous le titre */
+}
+
+.hero p {
+    font-size: 1.2rem; /* Taille de la police du paragraphe */
+}
+
+/* Section Services */
+.services {
+    padding: 2rem 1rem; /* Espacement autour de la section */
+    background: #fff; /* Fond blanc */
+    text-align: center; /* Centrage du texte */
+}
+
+.services h2 {
+    font-size: 2rem; /* Taille de la police du titre */
+    margin-bottom: 1.5rem; /* Espacement sous le titre */
+}
+
+.card {
+    display: inline-block; /* Affichage en bloc aligné */
+    width: 300px; /* Largeur fixe des cartes */
+    padding: 1rem; /* Espacement interne */
+    margin: 1rem; /* Espacement externe entre les cartes */
+    border: 1px solid #ddd; /* Bordure grise claire */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Effet de déplacement vers le haut */
+}
+
+.card i {
+    font-size: 2rem; /* Taille de l'icône */
+    color: #0073e6; /* Couleur bleue de l'icône */
+    margin-bottom: 1rem; /* Espacement sous l'icône */
+}
+
+.card h3 {
+    font-size: 1.5rem; /* Taille de la police du titre */
+    margin-bottom: 0.5rem; /* Espacement sous le titre */
+}
+
+.card p {
+    font-size: 1rem; /* Taille de la police du texte */
+}
+
+/* Slider d'images */
+.slider {
+    display: flex; /* Disposition en ligne */
+    justify-content: center; /* Centre les images horizontalement */
+    gap: 1rem; /* Espacement entre les images */
+    margin: 2rem 0; /* Espacement vertical autour du slider */
+}
+
+.slider img {
+    width: 300px; /* Largeur fixe des images */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Section Blog */
+.blog {
+    padding: 2rem 1rem; /* Espacement autour de la section */
+    background-color: #f9f9f9; /* Fond gris clair */
+    text-align: center; /* Centrage du texte */
+}
+
+.articles {
+    display: flex; /* Disposition en ligne */
+    justify-content: center; /* Centre les articles horizontalement */
+    gap: 1rem; /* Espacement entre les articles */
+}
+
+article {
+    background: #fff; /* Fond blanc */
+    border: 1px solid #ddd; /* Bordure grise claire */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 1rem; /* Espacement interne */
+    width: 300px; /* Largeur fixe des articles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centrage du texte */
+}
+
+article i {
+    font-size: 2rem; /* Taille de l'icône */
+    color: #007bff; /* Couleur bleue de l'icône */
+    margin-bottom: 1rem; /* Espacement sous l'icône */
+}
+
+article h3 {
+    margin: 1rem 0 0.5rem; /* Espacement autour du titre */
+    font-size: 1.25rem; /* Taille de la police du titre */
+}
+
+article p {
+    font-size: 1rem; /* Taille de la police du texte */
+    color: #555; /* Couleur grise du texte */
+}
+
+/* Footer */
+footer {
+    background: #333; /* Fond gris foncé */
+    color: #fff; /* Couleur du texte blanc */
+    text-align: center; /* Centrage du texte */
+    padding: 1rem 0; /* Espacement vertical */
+}

@@ -1,0 +1,201 @@
+/* Global Styles */
+body {
+    margin: 0; /* Réinitialise la marge par défaut */
+    font-family: 'Roboto', sans-serif; /* Police de caractère Roboto - https://fonts.google.com/specimen/Roboto */
+    color: #333; /* Couleur du texte principale */
+    line-height: 1.6; /* Hauteur de ligne pour améliorer la lisibilité */
+    background-color: #f4f4f4; /* Couleur de fond de la page */
+}
+
+/* Container pour centrer le contenu */
+.container {
+    width: 90%; /* Utilise 90% de la largeur de l'écran */
+    max-width: 1200px; /* Limite la largeur du container à 1200px */
+    margin: 0 auto; /* Centre horizontalement le container */
+}
+
+/* Header */
+header {
+    background-color: #0073e6; /* Couleur d'arrière-plan bleue */
+    color: white; /* Texte en blanc */
+    padding: 20px 0; /* Espacement en haut et en bas */
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style-type: none; /* Enlève les puces des éléments de liste */
+    display: flex; /* Utilise Flexbox pour aligner horizontalement les éléments */
+    justify-content: space-between; /* Distribue l'espace également entre les éléments */
+    padding: 0; /* Supprime l'espacement intérieur */
+    margin: 0; /* Supprime la marge extérieure */
+}
+
+/* Les éléments de la liste du menu */
+nav ul li {
+    margin: 0 10px; /* Espace entre les éléments du menu */
+}
+
+/* Liens du menu */
+nav a {
+    text-decoration: none; /* Enlève les soulignements des liens */
+    color: white; /* Couleur des liens en blanc */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s ease; /* Transition douce au changement de couleur */
+}
+
+/* Effet au survol du lien du menu */
+nav a:hover {
+    color: #ffcc00; /* Change la couleur au survol en jaune */
+}
+
+/* Section Héroïque */
+.hero {
+    text-align: center; /* Centre le texte */
+    padding: 50px 0; /* Espacement en haut et en bas */
+    background-color: #fff; /* Arrière-plan blanc */
+}
+
+/* Titre de la section héroïque */
+.hero h1 {
+    font-size: 2.5rem; /* Taille du texte du titre */
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+/* Paragraphe dans la section héroïque */
+.hero p {
+    font-size: 1.2rem; /* Taille du texte du paragraphe */
+}
+
+/* Section des services */
+.services {
+    padding: 40px 0; /* Espacement en haut et en bas */
+    background-color: #fff; /* Arrière-plan blanc */
+    text-align: center; /* Centre le texte */
+}
+
+/* Titre de la section des services */
+.services h2 {
+    font-size: 2rem; /* Taille du titre */
+    margin-bottom: 30px; /* Espacement sous le titre */
+}
+
+/* Carte de service */
+.service-card {
+    padding: 20px; /* Espacement interne des cartes */
+    border: 1px solid #ddd; /* Bordure légère autour des cartes */
+    border-radius: 5px; /* Coins arrondis des cartes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée sous les cartes */
+    transition: transform 0.3s ease; /* Transition pour l'animation de déplacement */
+}
+
+/* Effet au survol de la carte de service */
+.service-card:hover {
+    transform: translateY(-10px); /* Déplacement de la carte vers le haut au survol */
+}
+
+/* Icônes dans les cartes de service */
+.service-card .icon {
+    font-size: 3rem; /* Taille de l'icône */
+    color: #0073e6; /* Couleur de l'icône */
+    margin-bottom: 20px; /* Espacement sous l'icône */
+}
+
+/* Carte d'article de blog */
+.article-card {
+    padding: 20px; /* Espacement interne des cartes d'article */
+    border: 1px solid #ddd; /* Bordure légère autour des cartes */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée sous les cartes d'article */
+    text-align: center; /* Centre le texte */
+    background-color: #fff; /* Arrière-plan blanc */
+}
+
+/* Icônes dans les cartes d'articles */
+.article-card i {
+    font-size: 3rem; /* Taille des icônes dans les articles */
+    color: #007bff; /* Couleur bleue des icônes */
+    margin-bottom: 20px; /* Espacement sous l'icône */
+}
+
+/* Titre des cartes d'article */
+.article-card h3 {
+    font-size: 1.25rem; /* Taille du titre de l'article */
+    margin-bottom: 10px; /* Espacement sous le titre */
+}
+
+/* Paragraphe dans les cartes d'articles */
+.article-card p {
+    font-size: 1rem; /* Taille du texte dans les articles */
+    color: #555; /* Couleur de texte gris clair */
+}
+
+/* Section Blog */
+.blog {
+    background-color: #f9f9f9; /* Arrière-plan gris clair */
+    padding: 40px 0; /* Espacement en haut et en bas */
+}
+
+/* Titre de la section blog */
+.blog h2 {
+    font-size: 2rem; /* Taille du titre */
+    margin-bottom: 30px; /* Espacement sous le titre */
+}
+
+/* Grille d'articles de blog */
+.row {
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    gap: 20px; /* Espacement entre les éléments */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Arrière-plan foncé */
+    color: white; /* Texte blanc */
+    text-align: center; /* Centre le texte */
+    padding: 20px 0; /* Espacement en haut et en bas */
+    margin-top: 40px; /* Espacement au-dessus du footer */
+}
+
+/* Paragraphe dans le footer */
+footer p {
+    font-size: 1rem; /* Taille du texte */
+}
+
+/* Styles Responsives pour les petits écrans (320CSS) */
+@media (max-width: 768px) {
+    /* Modifications pour les écrans de taille tablette et mobile */
+    
+    /* Adaptation de la grille des articles */
+    .row {
+        flex-direction: column; /* Les éléments passent en colonne sur les petits écrans */
+        align-items: center; /* Centre les éléments verticalement */
+    }
+
+    /* Ajustement des cartes de service */
+    .service-card, .article-card {
+        width: 90%; /* Largeur des cartes à 90% sur petits écrans */
+        margin-bottom: 20px; /* Espace entre les cartes */
+    }
+
+    /* Ajustement de la taille du titre dans la section héroïque */
+    .hero h1 {
+        font-size: 2rem; /* Réduit la taille du titre */
+    }
+
+    /* Ajustement de la taille du texte dans la section héroïque */
+    .hero p {
+        font-size: 1rem; /* Réduit la taille du texte */
+    }
+
+    /* Modification du menu de navigation pour les petits écrans */
+    nav ul {
+        flex-direction: column; /* Les éléments du menu passent en colonne */
+        align-items: center; /* Centre les éléments du menu */
+    }
+
+    /* Espacement entre les éléments du menu */
+    nav ul li {
+        margin: 10px 0; /* Espacement entre chaque élément du menu */
+    }
+}

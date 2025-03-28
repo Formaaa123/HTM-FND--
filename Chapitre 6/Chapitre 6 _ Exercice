@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de Réservation d'Événement</title>
+    <style> input { margin-top :30px; }</style>
+</head>
+<body>
+
+<form>
+    <!-- Nom : Champ de saisie de type texte, obligatoire avec un placeholder "Entrez votre nom" -->
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+
+    <!-- Email : Champ de saisie de type email, obligatoire avec un placeholder "Entrez votre email" -->
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+
+    <!-- Pays : Liste déroulante (<select>) avec quelques options (ex. France, États-Unis, Canada) -->
+    <label for="country">Pays :</label>
+    <select id="country" name="country" required>
+        <!-- Option pour le pays France -->
+        <option value="fr">France</option>
+        <!-- Option pour le pays États-Unis -->
+        <option value="us">États-Unis</option>
+        <!-- Option pour le pays Canada -->
+        <option value="ca">Canada</option>
+    </select>
+
+    <!-- Type de billet : Boutons radio pour "Standard", "VIP", et "Premium" -->
+    <div class="radio-group">
+        <label>Type de billet :</label>
+        <!-- Bouton radio pour le type de billet Standard, obligatoire -->
+        <input type="radio" id="standard" name="ticket_type" value="standard" required>
+        <label for="standard">Standard</label>
+        <!-- Bouton radio pour le type de billet VIP -->
+        <input type="radio" id="vip" name="ticket_type" value="vip">
+        <label for="vip">VIP</label>
+        <!-- Bouton radio pour le type de billet Premium -->
+        <input type="radio" id="premium" name="ticket_type" value="premium">
+        <label for="premium">Premium</label>
+    </div>
+
+    <!-- Date de l'événement : Champ de saisie de type date pour sélectionner la date -->
+    <label for="event-date">Date de l'événement :</label>
+    <input type="date" id="event-date" name="event-date" required>
+
+    <!-- Nombre de billets : Slider (de 1 à 10) pour indiquer le nombre de billets souhaité -->
+    <div class="slider-group">
+        <label for="tickets">Nombre de billets :</label>
+        <input type="range" id="tickets" name="tickets" min="1" max="10" value="1">
+    </div>
+
+    <!-- Bouton de soumission du formulaire -->
+    <button type="submit">Réserver</button>
+</form>
+
+</body>
+</html>

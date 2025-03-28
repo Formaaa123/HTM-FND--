@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Débordements et Points de Rupture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Exercice de Gestion des Débordements</h1>
+</header>
+
+<section class="conteneur">
+    <article class="texte">
+        <h2>Texte Principal</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor, magna nec interdum egestas, enim turpis fermentum nunc, nec interdum justo nulla nec ligula.</p>
+    </article>
+
+    <div class="galerie">
+        <img src="image1.jpg" alt="Image 1" class="image-item">
+        <img src="image2.jpg" alt="Image 2" class="image-item">
+        <img src="image3.jpg" alt="Image 3" class="image-item">
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Footer de la page</p>
+</footer>
+
+</body>
+</html>

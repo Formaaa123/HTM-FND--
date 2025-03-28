@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conception classique vs Conception selon une grille</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Ma Page Web</h1>
+</header>
+
+<!-- Changez entre .classique et .grille pour tester chaque version -->
+<main class="classique">
+    <section class="article">
+        <h2>Article Principal</h2>
+        <p>Contenu de l'article principal...</p>
+    </section>
+
+    <aside class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Contenu de la sidebar...</p>
+    </aside>
+</main>
+
+<footer>
+    <p>Footer de la page</p>
+</footer>
+
+</body>
+</html>

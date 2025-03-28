@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Modèle de Boîte CSS</title>
+    <style>
+        .container {
+            display: flex; /* Met en page les enfants en ligne */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .box {
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            margin: 20px;
+            border: 3px solid blue;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Boîte 1</div>
+        <div class="box">Boîte 2</div>
+    </div>
+</body>
+</html>

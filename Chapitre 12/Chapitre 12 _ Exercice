@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemple de Médias Queries</title>
+  <style>
+    /* Style par défaut */
+    body {
+      font-size: 16px;
+      background-color: lightblue;
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+
+    /* Pour les écrans de largeur maximale 768px (tablettes et petits écrans) */
+    @media screen and (max-width: 768px) {
+      body {
+        font-size: 14px;
+        background-color: lightgreen;
+      }
+    }
+
+    /* Pour les écrans de largeur minimale 769px (pour les écrans plus grands, comme les ordinateurs de bureau) */
+    @media screen and (min-width: 769px) {
+      body {
+        font-size: 18px;
+        background-color: lightcoral;
+      }
+    }
+
+    /* Pour les appareils en mode portrait (vertical) */
+    @media screen and (orientation: portrait) {
+      body {
+        background-color: lightyellow;
+      }
+    }
+
+    /* Pour les appareils en mode paysage (horizontal) */
+    @media screen and (orientation: landscape) {
+      body {
+        background-color: lightpink;
+      }
+    }
+
+    /* Pour les écrans avec une résolution d'au moins 192dpi (les écrans haute densité de pixels comme les Retina displays) */
+    @media screen and (min-resolution: 192dpi) {
+      body {
+        font-size: 20px;
+        background-color: lightgray;
+      }
+    }
+
+    /* Pour les écrans avec une résolution de moins de 192dpi */
+    @media screen and (max-resolution: 192dpi) {
+      body {
+        font-size: 14px;
+        background-color: lightseagreen;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemple de Médias Queries</h1>
+  <p>Ce document montre différentes modifications visuelles en fonction de la taille de l'écran, de l'orientation de l'appareil et de la résolution d'affichage.</p>
+  <p>Essayez de redimensionner la fenêtre de votre navigateur ou de passer en mode portrait ou paysage pour observer les changements de style.</p>
+  <p>Les médias queries permettent de rendre votre site plus réactif en fonction des différents types d'écrans.</p>
+</body>
+</html>

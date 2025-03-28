@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Site avec Bootstrap</title>
+    
+    <!-- CSS Bootstrap depuis le CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">MonSiteWeb</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section principale -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <h1 class="mb-4">Bienvenue sur mon site !</h1>
+                <p class="lead">Ceci est un exemple simple de page utilisant Bootstrap pour une mise en page rapide et responsive.</p>
+                <a href="#" class="btn btn-primary mt-3"><i class="bi bi-hand-thumbs-up"></i> J'aime ce modèle</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 MonSiteWeb</p>
+    </footer>
+
+    <!-- JavaScript Bootstrap (optionnel) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

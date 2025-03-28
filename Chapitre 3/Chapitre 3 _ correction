@@ -1,0 +1,40 @@
+<!DOCTYPE html>  <!-- Déclare le document HTML5 -->
+<html lang="fr">  <!-- Début du document HTML -->
+<head>  <!-- Contient les informations de la page -->
+    <meta charset="UTF-8">  <!-- Définit l'encodage des caractères -->
+    <title>Page Simple</title>  <!-- Titre de la page -->
+
+    <!-- Ajout du CSS interne pour styliser la page -->
+    <style>
+        /* Appliquer un fond de page et une couleur de texte par défaut */
+        body {
+            background-color: #f0f0f0;  /* Fond gris clair */
+            color: #333;  /* Texte de couleur gris foncé */
+            font-family: Arial, sans-serif;  /* Police simple */
+            height: 100vh;  /* Hauteur de la page sur toute la fenêtre */
+            width: 100%;  /* Largeur complète */
+            text-align: center;  /* Centrer le texte de tout le contenu */
+        }
+
+        /* Styliser le titre h1 */
+        h1 {
+            color: #4CAF50;  /* Titre en vert */
+            font-size: 3em;  /* Taille de police plus grande */
+            height: 100px;  /* Hauteur du titre */
+            width: 100%;  /* Largeur du titre sur toute la page */
+        }
+
+        /* Styliser le paragraphe p */
+        p {
+            background-color: #ffffff;  /* Fond blanc pour le paragraphe */
+            color: #333;  /* Couleur du texte dans le paragraphe */
+            height: 100px;  /* Hauteur du paragraphe */
+            width: 80%;  /* Largeur du paragraphe à 80% de la largeur de la page */
+        }
+    </style>
+</head>
+<body>  <!-- Contenu visible de la page -->
+    <h1>Bienvenue sur ma page</h1>  <!-- Titre principal -->
+    <p>Ceci est un paragraphe d'exemple pour apprendre le HTML.</p>  <!-- Paragraphe de texte -->
+</body>
+</html>

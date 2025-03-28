@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice Média Queries</title>
+  <style>
+    /* Styles de base */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lightgray;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Médias queries */
+
+    /* Pour les petits écrans (smartphones) */
+    @media screen and (max-width: 600px) {
+      header {
+        background-color: #FF5722;
+      }
+
+      main {
+        padding: 10px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    /* Pour les tablettes (écrans moyens) */
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+      header {
+        background-color: #009688;
+      }
+
+      img {
+        width: 70%;
+      }
+    }
+
+    /* Pour les écrans larges (ordinateurs de bureau) */
+    @media screen and (min-width: 1025px) {
+      header {
+        background-color: #3F51B5;
+      }
+
+      img {
+        width: 50%;
+      }
+    }
+
+    /* Pour les appareils en mode portrait (vertical) */
+    @media screen and (orientation: portrait) {
+      main {
+        background-color: lightyellow;
+      }
+    }
+
+    /* Pour les appareils en mode paysage (horizontal) */
+    @media screen and (orientation: landscape) {
+      main {
+        background-color: lightblue;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur ma page adaptable</h1>
+  </header>
+  
+  <main>
+    <section>
+      <p>Cette page s'adapte en fonction de la taille de l'écran et de l'orientation de l'appareil.</p>
+      <img src="https://via.placeholder.com/300" alt="Image exemple">
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Mon Site Web</p>
+  </footer>
+</body>
+</html>

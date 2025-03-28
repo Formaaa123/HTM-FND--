@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice HTML</title>
+</head>
+<body>
+
+    <!-- Introduction avec Div et Span -->
+    <div style="border: 1px solid black; background-color: lightblue; padding: 10px;">
+        <h1>Bienvenue à l'exercice HTML</h1>
+        <p>Cet exercice vous apprendra à utiliser les balises de base en <span style="color: red;">HTML</span>.</p>
+    </div>
+
+    <!-- Listes -->
+    <div>
+        <h2>Liste des choses à apprendre</h2>
+        <ul>
+            <li>Bloc Div et Span</li>
+            <li>Listes</li>
+            <li>Tableaux</li>
+            <li>iFrames</li>
+        </ul>
+
+        <h2>Étapes de l'exercice</h2>
+        <ol>
+            <li>Lire l'énoncé</li>
+            <li>Écrire le code HTML</li>
+            <li>Tester la page dans le navigateur</li>
+        </ol>
+    </div>
+
+    <!-- Tableau -->
+    <div>
+        <h2>Tableau d'exemple</h2>
+        <table border="1">
+            <tr>
+                <th>Nom</th>
+                <th>Âge</th>
+                <th>Pays</th>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- iFrame -->
+    <div>
+        <h2>Visiter Google dans un iFrame</h2>
+         <iframe src="https://fr.wikipedia.org" width="600" height="400"></iframe>
+    </div>
+
+</body>
+</html>

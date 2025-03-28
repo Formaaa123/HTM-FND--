@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+</head>
+
+<body>
+
+    <header>
+        <!-- En-tête du site -->
+    </header>
+
+    <nav>
+        <!-- Navigation principale -->
+    </nav>
+
+    <main>
+        <!-- Contenu principal de la page -->
+    </main>
+
+    <footer>
+        <!-- Pied de page -->
+    </footer>
+
+</body>
+
+</html>
